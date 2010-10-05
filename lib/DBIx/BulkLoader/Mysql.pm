@@ -1,10 +1,9 @@
 package DBIx::BulkLoader::Mysql;
 
-#use 5.008004;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use constant key_count=>0;
 use constant key_single_insert=>1;
