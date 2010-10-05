@@ -3,7 +3,7 @@ package DBIx::BulkLoader::Mysql;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use constant key_count=>0;
 use constant key_single_insert=>1;
