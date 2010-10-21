@@ -3,7 +3,7 @@ package DBIx::BulkLoader::Mysql;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '1.004';
 
 use constant key_count=>0;
 use constant key_single_insert=>1;
@@ -260,6 +260,12 @@ sub get_buffered_data () { @{$_[0]->[key_data]} }
 =head1 SEE ALSO
 
 DBI, DBD::mysql
+
+=head1 Source Forge Project
+
+If you find this software usefil please donate to the Source Forge Project.
+
+L<DBIx BulkLoader Mysql|https://sourceforge.net/projects/dbix-bulkloader/>
 
 =head1 AUTHOR
 
