@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                DBIx-BulkLoader-Mysql
-version:             1.004
+version:             1.006
 abstract:            Perl extension for mysql bulk loading
 license:             ~
 author:              

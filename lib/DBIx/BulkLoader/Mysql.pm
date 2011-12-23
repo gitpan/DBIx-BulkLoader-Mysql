@@ -3,7 +3,7 @@ package DBIx::BulkLoader::Mysql;
 use strict;
 use warnings;
 
-our $VERSION = '1.004';
+our $VERSION = '1.006';
 
 use constant key_count=>0;
 use constant key_single_insert=>1;
@@ -31,7 +31,8 @@ DBIx::BulkLoader::Mysql - Perl extension for mysql bulk loading
   my $insert='insert into bulk_insert (col_a,col_b,col_c) values ';
 
   # repeating portion of the insert statement
-  my $column='(?,?,?)';
+  my $placeholders='(?,?,?)';
+
   # how many rows to buffer until insert is called
   my $bulk_insert_count=5;
 
